@@ -1,6 +1,7 @@
 import express, {Express} from 'express'
 import './dotenv'
 import logger from 'morgan'
+import './src/models/sequelize'
 const app: Express = express()
 const port = process.env.PORT
 

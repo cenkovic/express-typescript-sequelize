@@ -11,9 +11,7 @@ export interface UserAttributes {
 
 @Table
 export class User extends Model<UserAttributes, Optional<UserAttributes, 'id'>> {
-  @Column(DataType.TEXT)
-  firstName!: string
+  @Column(DataType.TEXT) firstName!: string
 
-  @Column(DataType.TEXT)
-  lastName!: string
+  @Column(DataType.TEXT) lastName!: string
 }
